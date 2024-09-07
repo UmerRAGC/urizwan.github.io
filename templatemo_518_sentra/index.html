@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sentra - Free Bootstrap Theme</title>
+        
+<!-- 
+
+Sentra Template
+
+https://templatemo.com/tm-518-sentra
+
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/light-box.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+<body>
+
+
+
+        <header class="nav-down responsive-nav hidden-lg hidden-md">
+            
+            <!--/.navbar-header-->
+            <div id="main-nav" class="collapse navbar-collapse">
+                <nav>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#featured">Featured</a></li>
+                        <li><a href="#projects">Recent Projects</a></li>
+                        <li><a href="#video">Presentation</a></li>
+                        <li><a href="#blog">Blog Entries</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+       
+
+        <div class="page-content">
+                <div class="section-heading">
+                    <h1>Mitosis<br><em>Counter</em></h1>
+                    <p>An IBM/MAX Breast Cancer Mitosis Detector 
+                    <br>R-CNN Based Web App</p>
+                </div>
+                    <div class="item">
+                            
+                            <div class="text-content">
+                                <h2><b>Guide</b></h2>
+                                <h3>Web App works on Chrome: <a class="fcc-btn" href="http://mitosiscounter.xyz:8501"><button>Mitosis Counter</button></a></h3>
+                                <h3><span><b>How to Use:</b></span></h3>
+                                <h4>1. Enter a threshold value between 0.0 and 1.0. Lower threshold values increase sensitivity while higher values return fewer results of higher confidence.</h4>
+                                <h4>2. Hit the 'Enter' key.</h4>
+                                <h4>3. Upload a .png .jpg or .jpeg image. Limit sizes to around 512 by 512 pixels.</h4>
+                                <h4>4. Hit 'Count Mitoses'. The top right corner should show the app running.</h4>
+                                <h4>Troubleshooting: This app is not production ready and will fail often. Wait 5 minutes for it to restart. Using a smaller image might help but isn't necessary. It won't display nuclei and mitosis counts with dark themes. </h4>
+                                <h4>Note: The app doesn't work with non H&E stains like IHCs. Uploading unusual images may produce unexpected behavior. All images are deleted after 10 seconds but nuclei patches may be saved unless overwritten.</h4>
+                                <h4>Features: Output includes number of nuclei and mitoses. Whole slide imaging is not supported at this time. Suggestions and comments: ur0001@mix.wvu.edu </h4>                             
+                                <h2>              </h2>
+                                <h2>              </h2>
+                            </div>
+                            <div class="row">
+                                <p align="center"><iframe width="1000" height="562" src="https://www.youtube.com/embed/MSNwgeRfs-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    
+                    <div class="j">
+                        <div class="item">
+                            <div class="text-content">
+                                <h3><b>Example Output:</b> Malignant spindle cell neoplasm </h3>
+                                <span><h3><b>Interpretation and Results</b></h3></span>
+                                <h4><b>Figure 1:</b>Malignant spindle cell neoplasm, showing numerous mitotic figures, including atypical tripolar mitotic figure, in the centre. [H&E stain 40X]</h4>
+                                <h4>SpCC shows moderate to poorly differentiated nonkeratinizing spindle cell lesion without clear margins. Cells are pleomorphic with large hyperchromatic nucleoli, prominent nucleoli and mitoses.</h4>
+                                <h4>Threshold was set to 0.050. Model identified one tripolar mitotic figure while missing numerous other mitoses.</h4>
+                                <h4><b>Image credit:</b> Calicut Medical College, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons</h4>
+                                <h4>Page URL: <a href="https://commons.wikimedia.org/wiki/File:Malignant_spindle_cell_neoplasm_showing_mitotic_figures_40X.jpg">https://commons.wikimedia.org/wiki/File:Malignant_spindle_cell_neoplasm_showing_mitotic_figures_40X.jpg</a></h4>
+                            </div>
+                            
+                            <div class="image">
+                                <img src="img/featured_1.png" alt="">
+                                 
+                            </div>
+                            
+                        </div>
+                        <div class="item">
+                            <div class="text-content">
+                                <h3><b>Example Output:</b> Matrix-producing metaplastic breast carcinoma </h3>
+                                <span><h3><b>Interpretation and Results</b></h3></span>
+                                <h4><b>Figure 2:</b> Photomicrograph showing Infiltrating Ductal Carcinoma with marked nuclear pleomorphism and atypical mitotic figures (H&E 400X) </h4>
+                                <h4>IDC featuring prominent matrix component and cystic breakdown shows poorly differentiated pleomorphic cells with eosinophilic cytoplasm, prominent nucleoli and abundant mitotic figures in absence of spindle cells.</h4>
+                                <h4>Threshold was set to 0.050. Model identified one multipolar mitotic figure with other adjacent mitoses while ignoring many others. Notably atypical cell on the right mid margin is ignored. This illustrates a limited processing of boundary artefacts by the model.</h4>
+                                <h4><b>Reference:</b> Matrix-producing metaplastic breast carcinoma – a rare tumor with heterologous elements - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/Photomicrograph-showing-IDC-with-marked-nuclear-pleomorphism-and-atypical-mitotic-figures_fig2_321934057 [accessed 14 Nov, 2021]</h4>
+                                <h4>Page URL: <a href="https://www.researchgate.net/figure/Photomicrograph-showing-IDC-with-marked-nuclear-pleomorphism-and-atypical-mitotic-figures_fig2_321934057">https://www.researchgate.net/figure/Photomicrograph-showing-IDC-with-marked-nuclear-pleomorphism-and-atypical-mitotic-figures_fig2_321934057</a></h4>
+                            </div>
+                            <div class="image">
+                                <img src="img/featured_2.png" alt="">
+                                
+                            
+                        </div>
+                        <div class="item">
+                            <div class="text-content">
+                                <h3><b>About the App:</b></h3>
+                                <span><h3><b>Stack and Workflow</b><h3></span>
+                                <h4><b>Stack:</b> Ubuntu Apache Streamlit Pipenv Docker Python3 OpenCV PIL Paramiko Scikit MatPlotLib Numpy Jupyter Notebook </h4>
+                                <h4>MitoWeb is written entirely in python. Would recommend using Jupyter Notebook (mitoprog.ipynb file) for testing. Apache license applies. Source files available at:</h4>
+                                <h4><a href="mitoprogsf.py">mitoprogsf.py</a> </h4>
+                                <h4><a href="mitoweb.py">mitoweb.py</a></h4>
+                                <h4><a href="mitofinal.ipynb">mitoprog.ipynb</a></h4>
+                                <h4>The artificial intelligence components have flask based web app interfaces. They were available from github IBM/MAX under an Apache license. Models run as docker containers while Streamlit is on a pipenv shell. The Streamlit framework passes user images to the Nucleus Segmenter. A JSON format binary mask is generated by the model and converted to an array.</h4>
+                                <h4>This array is converted to an image, sent to Streamlit and passed to a function which performs watershed segmentation of the mask array and extracts pixel coordinates for the location of nuclei. The coordinates are used by a patch generating function to extract 64 by 64 pixel images of nuclei.</h4>
+                                <h4>These patches are passed to the Mitosis Detection model and the probabilities of mitosis are saved alongside the coordinates. Finally, OpenCV is used to draw circles around the nuclei with a probability higher than the threshold and the final images is passed back to Streamlit.</h4>
+                                <span><b><h3>Possible Improvements</h3></b></spah4>
+                                <h4>This project was completed over 3 weeks of casual coding while doing my ART and Vascular surgery rotations. Most of this work was setting up servers, networking and getting the OpenCV to work well.</h4>
+                                <h4>The goal of this project is to leverage AI's ability to do quantitative work and simple binary tasks reliably to improve physician efficiency. To that end, processing whole slides through a faster native app would be ideal. New mitosis counting models are generated every month. Incorporating the best models will help improve accuracy while optimization through the use of multi-stage containers, tensors and parallelization will make these tools practical.</h4>
+                                <h4>Models and Licenses:</h4>
+                                <h4><a href="https://github.com/IBM/MAX-Nucleus-Segmenter/blob/master/LICENSE">IBM/MAX Nucleus Segmenter</a> </h4>
+                                <h4><a href="https://github.com/IBM/MAX-Breast-Cancer-Mitosis-Detector/blob/master/LICENSE">IBM/MAX Breast Cancer Mitosis Detector</a></h4>
+                                <h4><a href="https://github.com/streamlit/streamlit/blob/develop/LICENSE">Streamlit</a></h4>
+                            </div>
+                            <div class="image">
+                                <img src="img/featured_3.png" alt="">
+                                
+                            </div>
+                            
+                        </div>
+                        
+                      
+                        
+                    </div>
+                </div>
+            </section>
+             
+            <section class="footer">
+                <p>2021 Umer Rizwan Apache License applies 
+                
+                . Design: TemplateMo</p>
+            </section>
+        </div>
+
+    
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        // Hide Header on on scroll down
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+        var navbarHeight = $('header').outerHeight();
+
+        $(window).scroll(function(event){
+            didScroll = true;
+        });
+
+        setInterval(function() {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(this).scrollTop();
+            
+            // Make sure they scroll more than delta
+            if(Math.abs(lastScrollTop - st) <= delta)
+                return;
+            
+            // If they scrolled down and are past the navbar, add class .nav-up.
+            // This is necessary so you never see what is "behind" the navbar.
+            if (st > lastScrollTop && st > navbarHeight){
+                // Scroll Down
+                $('header').removeClass('nav-down').addClass('nav-up');
+            } else {
+                // Scroll Up
+                if(st + $(window).height() < $(document).height()) {
+                    $('header').removeClass('nav-up').addClass('nav-down');
+                }
+            }
+            
+            lastScrollTop = st;
+        }
+    </script>
+
+    
+
+</body>
+</html>
